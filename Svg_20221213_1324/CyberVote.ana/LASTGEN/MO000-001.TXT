@@ -1,0 +1,20 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+AVOTER		NFI		nouveau fichier
+CANDIDAT		NFI		nouveau fichier
+CODEELECTEUR		NFI		nouveau fichier
+COMMUNE		NFI		nouveau fichier
+ELECTEUR		NFI		nouveau fichier
+ELECTION		NFI		nouveau fichier
+LISTECANDIDATELECTION		NFI		nouveau fichier
+TYPEELECTION		NFI		nouveau fichier
+VOTE		NFI		nouveau fichier
+AVOTER_ibfk_1		NWL	CODEELECTEUR (CodeElecteur) et AVOTER (CodeElecteur)	Nouvelle liaison entre les fichiers CODEELECTEUR (CodeElecteur) et AVOTER (CodeElecteur)
+CODEELECTEUR_ibfk_1		NWL	ELECTION (CodeElection) et CODEELECTEUR (CodeElection)	Nouvelle liaison entre les fichiers ELECTION (CodeElection) et CODEELECTEUR (CodeElection)
+CODEELECTEUR_ibfk_2		NWL	ELECTEUR (NumeroElecteur) et CODEELECTEUR (NumeroElecteur)	Nouvelle liaison entre les fichiers ELECTEUR (NumeroElecteur) et CODEELECTEUR (NumeroElecteur)
+ELECTEUR_ibfk_1		NWL	COMMUNE (CodeCommune) et ELECTEUR (CodeCommune)	Nouvelle liaison entre les fichiers COMMUNE (CodeCommune) et ELECTEUR (CodeCommune)
+ELECTION_ibfk_1		NWL	TYPEELECTION (CodeTypeElection) et ELECTION (CodeTypeElection)	Nouvelle liaison entre les fichiers TYPEELECTION (CodeTypeElection) et ELECTION (CodeTypeElection)
+LISTECANDIDATELECTION_ibfk_1		NWL	ELECTION (CodeElection) et LISTECANDIDATELECTION (CodeElection)	Nouvelle liaison entre les fichiers ELECTION (CodeElection) et LISTECANDIDATELECTION (CodeElection)
+LISTECANDIDATELECTION_ibfk_2		NWL	CANDIDAT (CodeCandidat) et LISTECANDIDATELECTION (CodeCandidat)	Nouvelle liaison entre les fichiers CANDIDAT (CodeCandidat) et LISTECANDIDATELECTION (CodeCandidat)
+VOTE_ibfk_1		NWL	ELECTION (CodeElection) et VOTE (CodeElection)	Nouvelle liaison entre les fichiers ELECTION (CodeElection) et VOTE (CodeElection)
+VOTE_ibfk_2		NWL	CANDIDAT (CodeCandidat) et VOTE (CodeCandidat)	Nouvelle liaison entre les fichiers CANDIDAT (CodeCandidat) et VOTE (CodeCandidat)
+MaConnexion1		CNX+		

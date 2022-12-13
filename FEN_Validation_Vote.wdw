@@ -1,0 +1,93 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Validation_Vote
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Validation_Vote
+ identifier : 0x2385fa6f013d162c
+ internal_properties : BgAAAAYAAABwD/y7VrSWuaSqRdRenjZADLPAD/vpB+Udx4qjNercgi5/SLDOxxUX9GHndphiJgZshS+Eqg21v83HRSlNHTCg3ag/xormWWRZ6YS6zwqVPuILqxy2glVRGBSuU6p90imXE1lP6VB/bCvscpBgmH+NFXlXreVfzPZIHfWe9FNEEDSW8UtMd4oJlbJHZAdeM1rUfE6NPJu2qI2bjUFPNX3a50jRwIurCk/5NaxMM+/qK4+pj+8pGQS3WFRhgznF8DcAnzD+17u+tEk3FbUluaCPOMZGZmcDm8BBizLQlnRftwJdU6pfBWg69n872SITqoHzdvna5SUuBrgHl5dHaniV7fSrKEs6sGhLF79pxPKNFStMFNtbZETg/FhALZmmQ55GsrzA+hQE4VZ5L667Rcw78Yp6bf1pNum6M9Mcz0gJFC0YyrGC8v6lYJlYnPAIHzJrm90JHFjHbYq6kKwn70pNLnflqczsDyGrzzFlwV38XvrmIDbsESST05dqqs/JNfBsT/2Uf+uaTRVm8BwZ4AX8s6PsNZooKUwWLHJ6S7Z7XbjvhRFzLivWkYGKbrHUfRsJzh+AcYyusBVs1VYVk/j68uvh5QP1cJyqRapzqeSnhOrzSKFAu5xdivp1ayO37wCw++5kkuK1v1otTeLN6XUg29Ja1vFkLzGtcOuNgvLNF66uHnEgIoiqgxZ2jXjBVEQCzYPoYERkG6ePzVIdl10S6y25zs3DmiPqih5mDL3oTtZe3BP99vK1uINJlmf4o9ovZ/Hm/G1qDW02b5wG8kLtj1SazHWy3555YKxlnfwf3A==
+ controls :
+  -
+    name : LIB_Bonjour
+    identifier : 0x2385fb0e06958632
+    internal_properties : BgAAAAYAAABEBjtmBnFSqm9bRIoxepola1/4wA7HkCLgqXxRAaoACuM6ZnaI0glw7jregzlOdi8jt5RUgN9n3k1XmUqBKiBVdJYW6m89HtBoGfU1k5uX4ArS2Tc2bNn00aQytER7lvfKSUfeUNaCcJp8N1ZEaJwgJgLwRfb89nhPHU2+R8qKawQJpT3gxFWYE31MUaNVpCYkqbCUGGl+VtZ0PS7dExFvZt4NWnPMoTalnhkN+KLIeIqlmSuS5ebBHM3glVg3zdBONtDxsf4al9VM8nn9Ay0L7EvMyfU8bZtAbPwEHkSRpCwS6errVjzpsSEFFVCGAdgYTj0ZtAknjq5lulzZgUISYNico30WMUjjRyvZJZSBRvj6ty38lfyhUfQwndUoFM/+b0B6KFYn7jdEPAbI1bZz2ZJKSQDrm/7En0pGCPOSUmpTSCfAD0V6r1lsMnO62ViixOI9E69h5i+nTej8gV9Y6Egv7AUz3oNA/2RqsK7QwuLlX21N/jjm5uAcpRdSeK7bNGl6PlkF0DIC3aGdyr+OlMYF1ZOvVom6jBObPw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Libellé pour écrire un titre
+        type : 14
+  -
+    name : LIB_Vous_avez_voté_pour
+    identifier : 0x2385fb1c06d3bd11
+    internal_properties : BgAAAAYAAABnCGtk/LgrOQirUlYPfBsSfbRs+StRt+4DZMCnb2yIOzrf7y+0pSdvxewNLsw5HqWmqN+HeoDE1Ll4vr6zBhpuoGuUrQpkVv6PZ6UDxs5V9FNG93TCjzhpjBHfRkTnIzvjQDKZM6OKfo9QcMSNlgDL7/Uc1iqMSbZXXr8G2XSMOJSFkpoU2oMSUkjnNOdZGCBvenLZNTRFvZPXL0zQjpV0DD1Po4zlXtD586uAT8M7H4aSneKAnPrU+bmbOrpn4bV2KJ3gBXjhOLokcZHr2vt3cQ8+eUHqx03gUhJcmljI6WmoLFCD/8YyQnOcHGS08xaRXkpqcUebikUxbLWT6lql3guuFpKGgA7bsewbGUqjloNLr4DRbSaYbtmxIY45qaN8qOrVnUK2i5aDWUs/lJ9XcjKff2+jfPZbnFCGRaUZ944ci2h6lMHqpY0=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Le
+    identifier : 0x2385fb4606d85e91
+    internal_properties : BgAAAAYAAADFMOw/s3RbzVzob8XAx45LkKflQqM8JSdqPTxwOWOlZcY/VC009tYf08sMpksyVBQBIrR6y6eNldEbwWfS2TsniGPzH3x/Hj98t8EMKVfGpkWPJCqLgYJztLj8Qkv5nCQL884RlZgy/JgsIra+okIb3sVnlFzWJthY7InUaCnJUzfGNhb01b5OLwPfixU4U61OfT/VviTVtNpQX1CYuvzkjuyHcsxxAXEGijJ4/0WpSIaT6OKlML+XhFrark2LdQyWy1oS4MYSd+EbIrNgLo+QE6hP23IEvKwbf89ePSL2fIW3Mwg6h22H38gB2rnQj+c7sLp62lnSJzLW4Y9k4DzwOLJS42UrtHFJeQSXZA0fQfKVHhB7GLz5Ki/CnnY4vO1W8XhAQEMEuU7L+84dDs9SDCI+
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_À
+    identifier : 0x2385fb4f06f383bc
+    internal_properties : BgAAAAYAAADOqXtEIBf2eCGvIqyvHuGeKaDcYxhDQEqb8KFl4oQO/P0GvfoNd05+xujLz1FmiAucaakt9mxa+nykjkQDKtx2n88e7KXg1YT/Qp3annMeeqHH6Gq3TZojiLiEphf9FFA346IJ2ZwqhFSECtLKnkpfWkV7LEByXtjMvHnATF1xZ2uWGh7AcS6mi+sPNwl8U8EKPXuFwlC1HGaeIaLidEouKHIJnBbbt9fMSHRqqb/Harh50qzfwo0l2sCU8Je9u06IERy8SqDofY9J1G0a6GXiFVYhzQxW0qJh7VHIX5x8fg81TWpUqYPtXXCvFvVGIfebKRNRYcI5XNcrttJn/WmjHc9HvtluRhc/fWC1V+4auCtOp2cSgeN+j+RzwQkhVQxP7glN6ZpdEJGOPoPKcWLno7lF
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BgAAAAYAAACkEsiISei71XADziRtqz825p2u+JxAwLw5gOayBlVRMyUyCuPBUKEW3zqrjRqefTUDThaPHDsrCAj+xjC7VBCYbp+S4A3/GQzxaNmwrJdOAFdz7tGDl4LthpVOywBXeggY3I/hgXnJgFliwpJvnbZIcLc3p8S9Fj4esH4chfTJ8kVc44drRLNrWnH1d7etyO4cv63/2bLMbyx5ddawd993dWjZEcqlxMaoxm3ooQaQdeLLHVIQyozySXDwsilS7RghzjHbepsrwgfQt8M3
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BgAAAAYAAADG0006i3ptxMcUE+O5cGvDhb43eRlY9UEE1z/7izK93v/ToMiwACETQQw4eQhZuJRMFa6SBwwT+zSdDbdc5HEkXDob51ldPFNKsP+0MWY=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      REQ_NomCandidat.ParamNumeroElecteur= nNuméroCodeElecteur
+      HExécuteRequête(REQ_NomCandidat)
+      SI HLitPremier(REQ_NomCandidat) ALORS
+      	
+      	LIB_Bonjour = " " +  LIB_Bonjour + " " +  REQ_NomCandidat.NomElecteur +" " + REQ_NomCandidat.PrenomElecteur
+      FIN
+      
+     type : 34
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BgAAAAYAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1385fa680010fe20
+  internal_properties : BgAAAAYAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BgAAAAYAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BgAAAAYAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

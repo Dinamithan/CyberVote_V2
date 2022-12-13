@@ -1,0 +1,165 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Verif_Vote
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Verif_Vote
+ identifier : 0x238dcd7600f9ca1b
+ internal_properties : BgAAAAYAAAB+eY0BJWei22cXeand6V+SZoMpZLJg4+7hZzJdJJPLGYV8pNBfgBV4Id9pnI+WFfa4BdMg46Tt7etc5W6HqIRlyEzYlBrg6FL1+Jm1DYapbFTpMS/QlPqrkMuKh0w+nEcgfDuvkHnMgLZ6w4kaam2vHZeFpqFN1fUfLph2fEHd9+ShVKZJ2wuMu9Y6huGMsU+ZJkXyUUTIoKlL+h4CvEAXHqwAP6YMR0wn9jOJr36RKLNzhC6Qv/luo7ERsgqWFZ9nEYsDdCEU+sdUnRFYkGU0odVJqCluzBF8LTDk1y0f9GHTKXEHQyT6YO4wSeJa4KRm/cGGFrxQ4YQ5eNAI69s2EAb9pCMFc0YHX/QDbCmejl0nZtBHRICTiwHAtYi6kUD8fUG0D56I4svR1w4/dKFbCgeQpAtXUFKiOgyztBOj1xYFGpTgflI8bLUBXjJPSVe42y1+Xt85zpHgtMNj12dIDr8MQqsKEp65P4bONTm581EIJfDj1VnDFTGNhooaAGDLovG2LBBL4qd2OLV/qqQmd0UC+Y1bfL69FZ/720tuGCm1aIbAsIZ4bi8eqmpVp4wtWFFCclxDMVZgj63HbQsE+jjjq+lGayOYR96nz8WEdHybDm/nHWINPV3rROzRMR/UmMplt3bi2/ewAToUIyvJk/1r5AwaF0G23UrC1Tis/FXgH+M0TQ/51HIzKoLs2O76VRH/cJhVh63kylfWF5AqCWiTpXChJaoXQo9Q+aokCEUVEkcfgRGTlMSbBi0xtRraVQVqBRuEcPISkp5vySiZ1tpxAg==
+ controls :
+  -
+    name : LIB_Bonjour
+    identifier : 0x238dddc2013974ef
+    internal_properties : BgAAAAYAAACyOb49Ae9RIVj4HsJU3va67yHAKsh7a64vi/MzrkkH3IS9M8WswbCpL//yEhnuLUNs3kVbxIqM8eOd/6y8BJR/g9+61rvaqigZcFa8G5wYNyob1hCGkqlw54aHc+MCQ4m26vY1bpvWlRuCaoU1aDkdpOwWNh7JUS6ruZjCcrpNZ7BqQaXldCbLJCMnZXJB/01VZJFckPgPo4lvZ/zZ45ZXb1lfNkI8sFoHzjqh/FPkmDlx4CjaTwTBvhdlx+MKl8sCtj7InnCm6K5251JKymsXcwJldULcAmoJSSaAD3NXBC4Pf9UENJfkbk0W932yT4AxExbEHNH6Vi3joN6xAvN4UxYSCotGmgjgmhE76Qvnis9rScKbq2mYgl7DI6hHRQ6Jvtqo0pP1qF2heiY7KHOboBHaby7OYTWjMS0D7ax+qAioEd0DPOnSEVFaUgi2xdgtUuhGA3l2cXrW
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Confirmation
+    identifier : 0x238dddd5013dbf56
+    internal_properties : BgAAAAYAAAANn6kc7QwO4mAevET1H1sMsr9zWtvhISfd3bqSWbKu4Tw1z3WVpytWOGvm3nj+rqObqg9foZlYQpQDLw4yIReRdXLq6Pik09oeLLCFxoJE0Trs9g1eQRiSgacYel1RUsZxVw1U3gCHJv7COAYKyc9OySVBrdc7/VbKcmG8t0vO2qZ6sAIeB4Hh52WwBJSyrFoq9OUo+1urE+DyvHuFlPAeTuJVjEQLDe9qYwhURnR9CmUF9mrp5L5Xlk2kFfKV7UpkLtWNNiUhclZqVjBHizUicSCeGApPwQihK+FQxCQbmcinfsJYXQwWBtflK0B5Fz1p1+dvuAiJ7jvTGSrGT/OhR3JL9UHFS3ZEcoCZDqIHjX3HJx3ieS9sNNUjBQdGxLcMHt7wkXkHqF3xiYyDih4z6XO/pYE5eCIFJWJdFEvAWxEuRzKBecC5XtpIbFCM1DvjbDEsWgNUqw5J+scoxkQqbwfMHr0SofLHeQhrffhy
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Valider
+    identifier : 0x238dde0905ac87d6
+    internal_properties : BgAAAAYAAABO3skBJnKuvjCYSawpVyRj+ScgUNQHzEymaVI/gVq8BbghwyAu7k3VX4rGqwpHLlobOj1QAXlw0b4BfLH/5BLuDsvkn6JU6KIRLTvtFOTnh1DZPzpMJA9PuDoZyx9+1NUObHH2N7whplPoosXk6xpNlnbBlpakksvkQYALcliRqjphPVjyqJgs9HOv8g8ntadz0zdWPQ5GzOZxhB+y87Pe21bM6xJ6X12ooG8fHUXfboiO+jekvENrNEv9d77Nds8QjxUaMt+K/fR9CcxmdU5dgqsDrDnbOpCp+Q5+VJyFkOQqDhrJ+dbSR7tloL/FbYGOYPk/NAybglD8hghRh19JUGkzjDYznJnZj18CtUpYnSf4XHeSVUXZ21gquavsh82BB6LKdqqKyAMDR6fZeYsoUBXJLKLZgGr8HSK2WFC9l08zG/I2QXWotJQlYwE9ijB7kuGi8kCZRkDg58MOoBpl/EN4MwugJzY2lxiYPRiZMuA7dHfF9l0GaAnCrINcflfUxwMBsGon1CwTvY4SyOAULyZR+e5etbbjGeW0qgdWtKcGnQTZSy0eMy8ni75qbgy5p1sZVyTaP1uw0AaLtdL4wd7ayAtT44IlvFIU346KhaSZTh6513ntgrR+4qE+Qxko+LIAeUKpL+edupDXhBrl91LP0WvHMSIxNq0LoTOBHmwh8OQbvzvdB3XgdXm5xHvAU89tacQkc3fZ7mDZ+a/KN65CVdWZGJ1TlP0WHVisT0fQNlNmmrqqJyyVud+4UL0w1Ub/urvdvbe0C3lfgiA4qD2r7wojziN/c3M6KOdiDdJDG0cD+RUU6nH0mBN5/nkaD00xw8yGzMWfBjpKmDKZ2h8paTOVQJwimrco3kLzBns7xFdob+uFhndDZeR3Zz3WL1Dm8+dIp8HtEQn0Etsi1M/vdMbFZX7losILgcDlj1gKK2B5IK++
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton en validation
+         
+        type : 14
+      -
+        code : |1-
+         
+         REQ_A_VOTER.ParamCodeElecteur = nNuméroCodeElecteur
+         REQ_A_VOTER.ParamDateVoter = LIB_Date
+         REQ_A_VOTER.ParamHeureVoter = LIB_Heure
+         
+         REQ_VerifCodeElecteur.ParamCodeElecteur = nNuméroCodeElecteur
+         
+         REQ_AjoutVote.ParamCodeCandidat = nNuméroCandidat
+         REQ_AjoutVote.ParamCodeElection = 1
+         HExécuteRequête(REQ_VerifCodeElecteur)
+         SI HLitPremier(REQ_VerifCodeElecteur) = Null ALORS
+         
+         HExécuteRequête(REQ_AjoutVote)
+         HExécuteRequête(REQ_A_VOTER)
+         FEN_Validation_Vote.Ouvre()
+         
+         	Erreur("Erreur")
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x238dde0d05c29a83
+    internal_properties : BgAAAAYAAAAYQmsZWM3Cj4oP2mm0eopkC219t9CY7UypMts+lDLX6T6tgJV51CT+5VqkjQWGu6gjsi9DaLFSW79RpjKap421CSupg5LrNeFAiGayOi+luXFn18cRTlzvikhBsUpo8zUozm2JqN687uBAkI5mWju3r6uugyMok+ptYBOACRqR+dlEyOI6q9yOJ64OThez8HCMsmNPATNrA3uAX4DK43fjnVcmQi5WQoCu/vWFmbCKYK80qkTx1MYXG85M+TQx/J6Njj74raTWlIwSRwKlfUN6GXGdgeAniF8CmnVvTxf6bFfPP0KckIifHPcoU68RsF1RWU7t9NHO2Q1LbXtkCJV+F7s3zu31+CbaDVSswqUTXeTg7ivaWMdHFQ5M6+CSgEfwYXIckEWtIlLvf595P94xKbWDXfcdIavIQvI5+4+/kbrgRwcTzar9Z4pZIGGG7C1Kzlq562x+/aIhG1uej/suSoKy26MaB7PTCPFd+1DhQxck32uwT1oEwpq0318h9PydAuK8RcoPBw2vbTvdFc//JdSWsSIQwSN+8tckTZ2V57+Z6S8QIi63WKGqa+F6n8Q6nmKEHrdfKDICIdCUrtFzJjFpa0WLIIaXLRm4FsyGAQNOYZ0PnyqHjy6dmqHBYwcnWPz416Wlq8ZYgGxrZ5LJ3/rnkznW1IZNPhLNRxo0Ru0zCOl0ij2IjK9ZZRNxHXrQUE14vLak6WDpAHfFnkekuIlqZmxsMNNLWj3Xv1+V5ms7nMvtcGXTpxrSnRI5x84pDhbZ5kxFDEpSRAEdM7GcEhxpcOJL7VUvj46CzKAWKN30fJPrBSxyfmnlUop4Uk2LsJaiwTh7HrgtOGOWJkcDw5VxEKaKuGBPLGR4iAC2BzafBzbVAlqAHSKj7Fx0JtXMfsF4IgN+oiRMbQKqttQoud4WUIXjopD5CHYV09Uy0elPQ2Ngdjy8hzfC3Q==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton en annulation
+         
+        type : 14
+      -
+        internal_properties : BgAAAAYAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Date
+    identifier : 0x238dde9c05dac7b4
+    internal_properties : BgAAAAYAAAAU8OLr7RQvmOWUf86unEhCDrtuj+/PeYNvZj4x5XtXVw7pm6Rcb4DQI0EcdNUhyFnNjsOfRKR0AqYW8ovCoiUaN/Xw0+sMVb5pTlgs8e5unnN8DE+IayBaRix4r0S8y6WDoHpgwpoPsm0VQHcqvs0BAmXqwkxSUmVkrXTR1GLlI6V2xa45IgsKe8zro4bIZsJihHWimA4+eP0gJ9THEG2uCmLg4oR8bq8OCqRvISUvFJsi3lFBkNEwSvBxkVgon2J7WkzPRuNa/jOCLa6A4bin5peo6hYY6qxxkySTGH8czI2ebmO2YwS0QP/K3xkjVeQgdTzpaHCxSIQiAg6bGsQ8VKLFqD8jvHt1gtQHjay5Vi1SbkSDuedTsHuKCUu9UJnN/pJ/8IC3YO2cyAJ1Jqm2TCcDoYltBRaweKelJY46x2MoXdK1Mn/Op0dyUv456xf75/MbCrGAYTD9J5gJX73ClAznD7/pt0JN+uewkrsG833nMFXIoZBfnB5ULt8XplCaatN4yNKEavCTKAC5Raj1VUPU5WYwhw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         // Version 1
+         // Description 
+         // Texte simple affichant la date du jour à l'initialisation
+          
+         moimeme=datesys()
+        type : 14
+  -
+    name : LIB_Heure
+    identifier : 0x238ddeac05f20605
+    internal_properties : BgAAAAYAAACHbC73w8JcJxkkXn7Nda9/0Jy80Br5VsCJZ7JmbnDoRsqzD+i39JlUBU3C03pabe8yyVUFTSP8NM1fr2LQITHfoNOTdfLaeB+ops0VikRwyQrsOwzpm/no9R0UBBUopnLRGDTNkMt/u1RoC4MIhgTcWfJckxDAhFlmFZDRNrjA0is/fE/velVcoksEeMALILYZ5m2Jt25C/lE2wPrn8l36sPbhikbxVL2upxdfB039IOG/mShl4E73Ktuae88Oa2HfZZGTYH4XRWPDMLWnWAaZB9dODuo8MyRx3mHM4VLMhkyEQy6vW2xprpaT+xb+xob5aKbPLNyiz9yqkz7C21znhV6CL527HLrRre/Qd7Oiq6i1P09mxro4ZGem6OtaypMlHylj1VN5wjChXPRl7aO9pmtzX2lfGXb3xnVbtug/gP8WjDh7uEqn5/YAoJdS7mtoRrrcKPAhxhTAIkWw7u+WXWPznaLEtjl9Nb18m9J8ydRZdKtc5ggjuUHV8tr2uheo+0l3RBzKYp2yvJdx07W4j3Wr9aNwVDT8eXY0XcTeXRqyf23TzvOX+XQ9RYqbXwH47YdF7GiOjw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Texte simple formaté pour afficher une heure
+         
+         moimeme =heuresys()
+         
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BgAAAAYAAACkEsiISei71XADziRtqz825p2u+JxAwLw5gOayBlVRMyUyCuPBUKEW3zqrjRqefTUDThaPHDsrCAj+xjC7VBCYbp+S4A3/GQzxaNmwrJdOAFdz7tGDl4LthpVOywBXeggY3I/hgXnJgFliwpJvnbZIcLc3p8S9Fj4esH4chfTJ8kVc44drRLNrWnH1d7etyO4cv63/2bLMbyx5ddawd993dWjZEcqlxMaoxm3ooQaQdeLLHVIQyozySXDwsilS7RghzjHbepsrwgfQt8M3
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BgAAAAYAAADG0006i3ptxMcUE+O5cGvDhb43eRlY9UEE1z/7izK93v/ToMiwACETQQw4eQhZuJRMFa6SBwwT+zSdDbdc5HEkXDob51ldPFNKsP+0MWY=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      LIB_Confirmation = " " + LIB_Confirmation + sNomPrenomCandidat
+      
+      REQ_NomCandidat.ParamNumeroElecteur = nNuméroCodeElecteur
+      HExécuteRequête(REQ_NomCandidat)
+      Si HLitPremier(REQ_NomCandidat) ALORS
+      
+      	Lib_Bonjour = " " +  Lib_Bonjour + " " +  REQ_NomCandidat.NomElecteur +" " + REQ_NomCandidat.PrenomElecteur
+      FIN
+      
+     type : 34
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BgAAAAYAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x138dcd70000fb338
+  internal_properties : BgAAAAYAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BgAAAAYAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BgAAAAYAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
