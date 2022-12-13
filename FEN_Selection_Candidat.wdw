@@ -51,8 +51,9 @@ window :
          // Recherche si le code est le bon
          SI HTrouve() ALORS
          	Avertissement("Vous êtes bien inscrit.")
-         	nNuméroCodeElecteur = SAI_Numéro_carte_vote
-         	FEN_Candidat.Ouvre()
+         	nNuméroCodeElecteur = Val(SAI_Numéro_carte_vote)
+         	
+         	Ouvre(FEN_Candidat)
          SINOn
          	Erreur("Mauvais numéro.")
          FIN

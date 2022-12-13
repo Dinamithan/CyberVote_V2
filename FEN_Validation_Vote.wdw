@@ -29,11 +29,16 @@ window :
   -
     name : LIB_Vous_avez_voté_pour
     identifier : 0x2385fb1c06d3bd11
-    internal_properties : BgAAAAYAAABnCGtk/LgrOQirUlYPfBsSfbRs+StRt+4DZMCnb2yIOzrf7y+0pSdvxewNLsw5HqWmqN+HeoDE1Ll4vr6zBhpuoGuUrQpkVv6PZ6UDxs5V9FNG93TCjzhpjBHfRkTnIzvjQDKZM6OKfo9QcMSNlgDL7/Uc1iqMSbZXXr8G2XSMOJSFkpoU2oMSUkjnNOdZGCBvenLZNTRFvZPXL0zQjpV0DD1Po4zlXtD586uAT8M7H4aSneKAnPrU+bmbOrpn4bV2KJ3gBXjhOLokcZHr2vt3cQ8+eUHqx03gUhJcmljI6WmoLFCD/8YyQnOcHGS08xaRXkpqcUebikUxbLWT6lql3guuFpKGgA7bsewbGUqjloNLr4DRbSaYbtmxIY45qaN8qOrVnUK2i5aDWUs/lJ9XcjKff2+jfPZbnFCGRaUZ944ci2h6lMHqpY0=
+    internal_properties : BgAAAAYAAAC+IuIZ0xE0aqZ9pa19XUiHytrUhYGoPQfqpjt0jBdUuwUv+A0oX4RXa2Mx5Gq5CuX3s/6R1n8swLt4AWJ/SnF2FV2W9c+CljxFjgSGBVsLzodJ4O9jV9or5A7QYVz0Tkjp+IwI895DNsT1iuMPUixr2ok+DFB4Gj+YGUPUnPQ/RrS1D3R7oPbnv5vQWIo7T74/PLBm0JwpNXzdNFyOMMmOD9+r4qoG4jrDzMcD+/HP38MxNRlQMxXhztBGV4lwThhVDwIz5k84MWOh/I7q03B2dijnAN4F4u6FkfWxK7ebmtAtTaeK4B2D2y+0IxFXYqxFBLgKLJksEu2O4pz21pegeTHP4swC1ugYw0dwfcf3b0vKfuobPNvlIYFOoSr48zWP2rkDB7ZYyAPmCYHJJJdP3mLmm0G9GH0+vNL0meLKNHLIjrZYraWXxCKKSt8VR373hHrGRRWwJEW5Ur2hvSA1bBZqasZWDbhUzA==
     type : 3
     code_elements :
      type_code : 2
-     p_codes : []
+     p_codes :
+      -
+        code : |1+
+         LIB_Vous_avez_voté_pour = + LIB_Vous_avez_voté_pour  + ""
+         
+        type : 14
   -
     name : LIB_Le
     identifier : 0x2385fb4606d85e91

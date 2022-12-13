@@ -20,6 +20,9 @@ project :
     version : {}
     language : 1
     64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : BgAAAAYAAAASepqmGz4BRiqDrYgypGUejgpQLw1R8RK0Cl2MqpUEFpeykRHbErFCsVf+2S/ZLjUU5M69R2Bl2913
  elements :
   identifier : 0x436a7ae2008e7b6f
   elements :
@@ -131,6 +134,7 @@ project :
       nNuméroCandidat est un entier
       nNuméroCodeElecteur est un entier
       sNomPrenomCandidat est une chaine
+      nCodeSecret est un entier
      type : 196608
    -
      type : 196621

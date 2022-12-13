@@ -46,22 +46,28 @@ window :
       -
         code : |1-
          
-         REQ_A_VOTER.ParamCodeElecteur = nNuméroCodeElecteur
+         REQ_A_VOTER.ParamCodeElecteur = nCodeSecret
          REQ_A_VOTER.ParamDateVoter = LIB_Date
          REQ_A_VOTER.ParamHeureVoter = LIB_Heure
          
-         REQ_VerifCodeElecteur.ParamCodeElecteur = nNuméroCodeElecteur
+         // Ajouts de paramètres afin de vérifier si la personne a déjà voté
+         REQ_VerifCodeElecteur.ParamCodeElecteur = nCodeSecret
          
          REQ_AjoutVote.ParamCodeCandidat = nNuméroCandidat
          REQ_AjoutVote.ParamCodeElection = 1
          HExécuteRequête(REQ_VerifCodeElecteur)
+         // Si le code électeur est retrouvé dans la base, c'est que la personne a déjà voté sinon, le vote est prit en compte
          SI HLitPremier(REQ_VerifCodeElecteur) = Null ALORS
          
+         // Ajouts du nombre de vote pour le candidat
          HExécuteRequête(REQ_AjoutVote)
+         // Ajouts du fait qu'une personne a voté
          HExécuteRequête(REQ_A_VOTER)
          FEN_Validation_Vote.Ouvre()
-         
-         	Erreur("Erreur")
+         SINON SI HLitPremier(REQ_VerifCodeElecteur) = HTrouve(AVOTER)
+         	Ouvre(FEN_Validation_Vote)
+         SINON
+         	Erreur("Erreur.")
          FIN
         type : 18
       -
