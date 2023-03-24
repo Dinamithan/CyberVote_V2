@@ -1,0 +1,19 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+AVOTER		FIC-	AVOTER	Fichier supprimé AVOTER
+CANDIDAT		FIC-	CANDIDAT	Fichier supprimé CANDIDAT
+CODEELECTEUR		FIC-	CODEELECTEUR	Fichier supprimé CODEELECTEUR
+COMMUNE		FIC-	COMMUNE	Fichier supprimé COMMUNE
+ELECTEUR		FIC-	ELECTEUR	Fichier supprimé ELECTEUR
+ELECTION		FIC-	ELECTION	Fichier supprimé ELECTION
+LISTECANDIDATELECTION		FIC-	LISTECANDIDATELECTION	Fichier supprimé LISTECANDIDATELECTION
+TYPEELECTION		FIC-	TYPEELECTION	Fichier supprimé TYPEELECTION
+VOTE		FIC-	VOTE	Fichier supprimé VOTE
+AVOTER_ibfk_1		DEL	CODEELECTEUR (CodeElecteur) et AVOTER (CodeElecteur)	Liaison supprimée entre les fichiers CODEELECTEUR (CodeElecteur) et AVOTER (CodeElecteur)
+CODEELECTEUR_ibfk_1		DEL	ELECTION (CodeElection) et CODEELECTEUR (CodeElection)	Liaison supprimée entre les fichiers ELECTION (CodeElection) et CODEELECTEUR (CodeElection)
+CODEELECTEUR_ibfk_2		DEL	ELECTEUR (NumeroElecteur) et CODEELECTEUR (NumeroElecteur)	Liaison supprimée entre les fichiers ELECTEUR (NumeroElecteur) et CODEELECTEUR (NumeroElecteur)
+ELECTEUR_ibfk_1		DEL	COMMUNE (CodeCommune) et ELECTEUR (CodeCommune)	Liaison supprimée entre les fichiers COMMUNE (CodeCommune) et ELECTEUR (CodeCommune)
+ELECTION_ibfk_1		DEL	TYPEELECTION (CodeTypeElection) et ELECTION (CodeTypeElection)	Liaison supprimée entre les fichiers TYPEELECTION (CodeTypeElection) et ELECTION (CodeTypeElection)
+LISTECANDIDATELECTION_ibfk_1		DEL	ELECTION (CodeElection) et LISTECANDIDATELECTION (CodeElection)	Liaison supprimée entre les fichiers ELECTION (CodeElection) et LISTECANDIDATELECTION (CodeElection)
+LISTECANDIDATELECTION_ibfk_2		DEL	CANDIDAT (CodeCandidat) et LISTECANDIDATELECTION (CodeCandidat)	Liaison supprimée entre les fichiers CANDIDAT (CodeCandidat) et LISTECANDIDATELECTION (CodeCandidat)
+VOTE_ibfk_1		DEL	ELECTION (CodeElection) et VOTE (CodeElection)	Liaison supprimée entre les fichiers ELECTION (CodeElection) et VOTE (CodeElection)
+VOTE_ibfk_2		DEL	CANDIDAT (CodeCandidat) et VOTE (CodeCandidat)	Liaison supprimée entre les fichiers CANDIDAT (CodeCandidat) et VOTE (CodeCandidat)

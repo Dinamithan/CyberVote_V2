@@ -22,28 +22,10 @@ project :
     64bits : true
     new_features_help :
      name : ""
-     internal_properties : BgAAAAYAAAASepqmGz4BRiqDrYgypGUejgpQLw1R8RK0Cl2MqpUEFpeykRHbErFCsVf+2S/ZLjUU5M69R2Bl2913
+     internal_properties : BgAAAAYAAABcuMRsUYyPOKp/z7h1ZgOClrhX0UIAMbJ0Kr2siuUUBscCQeHcABcVcEw14PBhRP+gakQ32ZaflZu1
  elements :
   identifier : 0x436a7ae2008e7b6f
   elements :
-   -
-     name : REQ_Electeur
-     identifier : 0x437393a6056b47ee
-     internal_properties : BgAAAAYAAACF9zNfWCUAbNKew1Yo3KP4u6J2YgUkKS19SUEioFL3kBYUttfLtdg50csrVH+bJI+A
-     physical_name : .\REQ_Electeur.WDR
-     type : 5
-   -
-     name : REQ_ElecteurValide
-     identifier : 0x4373933f0568b4bb
-     internal_properties : BgAAAAYAAAAQ7khUUwggO4d5i4eA7kNYLIN741/75yqK3H8U7bbmckpEtw1qkywX5FtFs3NtFYt1/Q==
-     physical_name : .\REQ_ElecteurValide.WDR
-     type : 5
-   -
-     name : REQ_Authentification_Date
-     identifier : 0x437cec7d04df2226
-     internal_properties : BgAAAAYAAAAtKQUZppObRBINrUbkkioMqzpy+kYzit5Wrfc1K0hClqZehqw8wH1nP+bQKOgY4NA4OA==
-     physical_name : .\REQ_Authentification_Date.WDR
-     type : 5
    -
      name : FEN_Identification
      identifier : 0x43738d11031d91f5
@@ -63,23 +45,11 @@ project :
      physical_name : .\FEN_Authentification.wdw
      type : 2
    -
-     name : REQ_Code_Commune
-     identifier : 0x4385fcac03afd59d
-     internal_properties : BgAAAAYAAAA5G5dzTHlZDDocmWl8aINcovYCxBZ5Io1F4TTiQT2cX0A63HUF6vcAHrwHsJN3wCs8
-     physical_name : .\REQ_Code_Commune.WDR
-     type : 5
-   -
      name : FEN_Validation_Vote
      identifier : 0x4385fa6f0255162c
      internal_properties : BgAAAAYAAAAjHxsPvOnB2uRsn6RgJvpeK2R2tnBWLvVW/W+LDuWpX5WrgxND/yDCxXxmUtIO6t4mLg==
      physical_name : .\FEN_Validation_Vote.wdw
      type : 2
-   -
-     name : REQ_Code_Secret
-     identifier : 0x4385fcfc03b10d33
-     internal_properties : BgAAAAYAAAD1Ud3B/lvTjFoOv9uHKDunYzyO7khGXSaOF8V3EnEtO7k3Pk9XtDjgJx6YYCDQqBjgYA==
-     physical_name : .\REQ_Code_Secret.WDR
-     type : 5
    -
      name : TEST_Identification
      identifier : 0x438d9d6d00bbeef7
@@ -93,28 +63,22 @@ project :
      physical_name : .\FEN_Verif_Vote.wdw
      type : 2
    -
-     name : REQ_A_VOTER
-     identifier : 0x438dfd8e01fea887
-     internal_properties : BgAAAAYAAAALB3MXlNFZAsyMOtct/cz9FVDcXPQSwhtS2rMKY1A6nmJOG51ip8dirZQO6qom0sYOFg==
-     physical_name : .\REQ_A_VOTER.WDR
+     name : REQ_Table_Candidat
+     identifier : 0x4419c3f2094d0f5c
+     internal_properties : BgAAAAYAAADpa8dDnCk586IKFWpEVEMAEO4ETClyom0VccRp31dIA0I4UtuTWaojZ1xXYEOnEPts
+     physical_name : .\REQ_Table_Candidat.WDR
      type : 5
    -
-     name : REQ_NomCandidat
-     identifier : 0x438df508019f5d46
-     internal_properties : BgAAAAYAAADlV9M/uEUhnu6kjX30KnNsVZkazFDPJhnL6zYeO5sG/Kz+UP+jcFVCyGxLdF+7BO9g
-     physical_name : .\REQ_NomCandidat.WDR
+     name : REQ_Authentif_DatedeNaissance
+     identifier : 0x441d62ad00baa04c
+     internal_properties : BgAAAAYAAAD8WtTA/6QMHyhlNimboEX7qN/3v/TRPBBOj3nhXiZuolLsYLD1wxooda8plx/RqR/paQ==
+     physical_name : .\REQ_Authentif_DatedeNaissance.WDR
      type : 5
    -
-     name : REQ_VerifCodeElecteur
-     identifier : 0x438f36d401156264
-     internal_properties : BgAAAAYAAABSqIqeLRoSzZXXRKIU600pXgFNLa0lKHNyYl7QMVI6PsJI2AoaL1Xhtm1XoWGfW023vw==
-     physical_name : .\REQ_VerifCodeElecteur.WDR
-     type : 5
-   -
-     name : REQ_AjoutVote
-     identifier : 0x4397227d00cb7379
-     internal_properties : BgAAAAYAAADfufWRYl+/V2RScUJDYnVEMk16Lp3CpplrS1Y7mQdmHJWJE0BJLQT3wxLtirVV4sla
-     physical_name : .\REQ_AjoutVote.WDR
+     name : REQ_Authentif_CodeService
+     identifier : 0x441d6f4000adbd6a
+     internal_properties : BgAAAAYAAAAPCaXhMo9fR3Bqx40b6Ldk3PHOu+3hmKGWNHutC/ZLO6qgysP4y3jjw/L9uuUFshkK
+     physical_name : .\REQ_Authentif_CodeService.WDR
      type : 5
   other_elements : []
   analysis : .\CyberVote.ana\CyberVote.wda
@@ -135,6 +99,7 @@ project :
       nNuméroCodeElecteur est un entier
       sNomPrenomCandidat est une chaine
       nCodeSecret est un entier
+      bVote_Nul est un booléen 
      type : 196608
    -
      type : 196621
