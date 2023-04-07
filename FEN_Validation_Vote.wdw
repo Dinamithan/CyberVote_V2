@@ -55,6 +55,14 @@ window :
     code_elements :
      type_code : 2
      p_codes : []
+  -
+    name : IMG_SansNom2
+    identifier : 0x2422f0d309787cc7
+    internal_properties : BgAAAAYAAACEj+oam7728HQoOByIOXOaeYGZzni19/ZU3bHvZsgm/tHryG7mUAy8vL7EkoQgT6yRZrSyFL3DIRaFax+m0pLMSyn4SGEebLjsAWsuOC/BgmabdV8aymK34JfIo8xYFibeAmGCxy8cvSazfKZtZ9ZCBJMl8iUUXb6OYBzOJlXKA3HNNMSyiP2MtSWi5BwgKzAZBaQeCbvn50k+nSS9y3IftSOiRFbKtEOmea/bMKuiPB5lR9RCKjTcZPBw43l37ivKVlJP3uIY8Uisl+WAZjGt5qO0aNnAOHaTHXVR8sRQHU7PZ5iggsRgsSSAwjyx9IitccJ+1D07KfSytEbUMUN/LVSRsNVI+2s6LOWdNnkfZmuuma8YLVZ3dfdIPxNqmh09CpyWMyUKHaFC9+qgYKAqVj+wNjmo0DWq9ZvLLeL/qQ8oQL4gQ+Lou1VPGsDWHuQxhBdNvd5mVek9PC9aFp2yPGA1+nhW7vfZVpuMX87A1hzbqkcVbPkIxD5QBHtif26tt5IjihZiYzrQ/hDpEzRu2dsGSfTL2Tg40YHxZiBbDakpAKwfHkAhc61gXW6qCcFmHwRhqaRvlioYBS3SjEu69wkYt472ICiFZz/GQYd0tG9rToe4CpMXzfTRL5BkFTtviaJWdihwMXk7W8q8K/l5qL34/gP8/rKl5/56UjUBECdeM9zfqmqj36ERVH9pPdN5EoB8JmSpwQuMGJjRB1ophdH/E160B1im8ex6fw3i4hFjDZZ6N7RvhRcd5AeV16xlHoPX4ZtsGbD3DFL8dCDAraN7R9trfXqz84CmoZaqdujQm1aFoILVo8I7TH8mNDBhPZXZi2NVv9FRahPbgNrWOcI3NGcCr7ifN4qqMa15soreZ2u6gUje5Tqu/ae59K6oxJEoH26B0zV15s39UNKhPjHGwaYZ/YbqcC5fXMy9kYA=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221

@@ -1,20 +1,4 @@
-//MO003-004.TXT ANA00003 TO ANA00004
-CANDIDAT		NFI		nouveau fichier
-ELECTEUR		NFI		nouveau fichier
-ELECTION		NFI		nouveau fichier
-LISTECANDIDATELECTION		NFI		nouveau fichier
-CARTE		NFI		nouveau fichier
-GENERER_CODE		NFI		nouveau fichier
-SALARIE		NFI		nouveau fichier
-SERVICE		NFI		nouveau fichier
-Voter		NFI		nouveau fichier
-CANDIDAT_ibfk_1		NWL	SALARIE (CodeSalarie) et CANDIDAT (CodeSalarie)	Nouvelle liaison entre les fichiers SALARIE (CodeSalarie) et CANDIDAT (CodeSalarie)
-CARTE_ibfk_1		NWL	ELECTEUR (CodeElecteur) et CARTE (CodeElecteur)	Nouvelle liaison entre les fichiers ELECTEUR (CodeElecteur) et CARTE (CodeElecteur)
-ELECTEUR_ibfk_1		NWL	SERVICE (CodeService) et ELECTEUR (CodeService)	Nouvelle liaison entre les fichiers SERVICE (CodeService) et ELECTEUR (CodeService)
-ELECTEUR_ibfk_2		NWL	SALARIE (CodeSalarie) et ELECTEUR (CodeSalarie)	Nouvelle liaison entre les fichiers SALARIE (CodeSalarie) et ELECTEUR (CodeSalarie)
-GENERER_CODE_ibfk_1		NWL	ELECTION (CodeElection) et GENERER_CODE (CodeElection)	Nouvelle liaison entre les fichiers ELECTION (CodeElection) et GENERER_CODE (CodeElection)
-GENERER_CODE_ibfk_2		NWL	CARTE (NumCarte) et GENERER_CODE (NumCarte)	Nouvelle liaison entre les fichiers CARTE (NumCarte) et GENERER_CODE (NumCarte)
-LISTECANDIDATELECTION_ibfk_1		NWL	ELECTION (CodeElection) et LISTECANDIDATELECTION (CodeElection)	Nouvelle liaison entre les fichiers ELECTION (CodeElection) et LISTECANDIDATELECTION (CodeElection)
-LISTECANDIDATELECTION_ibfk_2		NWL	CANDIDAT (CodeCandidat) et LISTECANDIDATELECTION (CodeCandidat)	Nouvelle liaison entre les fichiers CANDIDAT (CodeCandidat) et LISTECANDIDATELECTION (CodeCandidat)
-Voter_ibfk_1		NWL	ELECTION (CodeElection) et Voter (CodeElection)	Nouvelle liaison entre les fichiers ELECTION (CodeElection) et Voter (CodeElection)
-Voter_ibfk_2		NWL	CARTE (NumCarte) et Voter (NumCarte)	Nouvelle liaison entre les fichiers CARTE (NumCarte) et Voter (NumCarte)
+//MO004-005.TXT ANA00004 TO ANA00005
+SALARIE	NomSalarie	NNR	NomElecteur	ATTENTION : la rubrique NomElecteur a pour nouveau nom NomSalarie
+SALARIE	PrenomSalarie	NNR	PrenomElecteur	ATTENTION : la rubrique PrenomElecteur a pour nouveau nom PrenomSalarie
+SALARIE	DateNaissanSalarie	NNR	DateNaissanceElecteur	ATTENTION : la rubrique DateNaissanceElecteur a pour nouveau nom DateNaissanSalarie

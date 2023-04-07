@@ -10,7 +10,7 @@ info :
 window :
  name : FEN_Verif_Vote
  identifier : 0x238dcd7600f9ca1b
- internal_properties : BgAAAAYAAABqwjRkcERD09KkLGBJ7VOYI36eB8vP3ghHA6cVW7TAtXJwdOPV6m6iraH3tZVDWS16zyN64JfagBC1+OboeJYmyY7hfY0O79wL72ysoi2fFsu2/y4mllpWivPwdEGtfjWOtQ6nuJbmzS4uj00zX2Jj7WyQ95k4+yVJUHTrnAQit+4xbPQSzKzyCZmJJn8ls2GWQSC0otjKk05wzt++FQbFGhM6KNuA+Rjq+RF6r2IrMufgKoKFGkRX+cREQvIZivOuvEoeoz3KcKT6cvvIvZDtG8ooBJBzq2kus4ZZSfFmP56GnO7uVjvA6CSFgG949xRxGfFMMJ3Rh65dRkYPWtNr54dwT2S0S6qYJRc2AlY/J6imjRzTycf5A8NsWnF4sUre2pvJXhbMqRWFFpTNrwAyxrBJs6zXj976iJ+eOcheDz5TRXoKFbNXHS3ywX5FKnwDJDXyt3yTcli9KyxgW8VJUsq8Z9+h5AISsR1E0MqNYpCOIYriyUimLzz7bt2zxGKXM4D9kPcVqmzA1fwJBAvkceQrqleUys7i8dae1a2jjk+q2xfW3u0bXJTo9ttkbIAb+4WDyr/yUetMuPCT0YKk3Q15Ytih7OYFWZXbKKpgyYj5ZMIHSUZ54DufYIsnRAb5E6rjhCtql7RGmkFY0/57mYYioXRtjelLvW0OHLL54JqDVhGC5k9vo/luCKUjJY+ECgmozTA+4rGfZSQLeEcG/REFmSQAYXXJIRqPS8HVEFcOFw9g/3C+daDNmki03YoDBfYQUf0cyeq4pVcrw6rL3kVC4PIMYdqvPzH2m3BUNHXn/ihOar3MNYc7m/2YfCR+t2htdf9qepFy386ibdmMsR7hon2UYB59R0l4Whuo+o5Fe8YxnHO83pDdyrJf+VtIFkzpqQ0R4OCOW2oGcEYmVReEDpJ73d5yuXE2S5cri+68vyvt20yIog==
+ internal_properties : BgAAAAYAAACSZf5+CQRiuomHTfe7W7EkvBQlDKpioz4xjzA0D3omjBah+U3ud/7VQDyC4xo9yClhvqD5lkdSvoY9Hqk+BQfzxCoIu84U6hH0gRgsqHIwf4Ed+a6zExIQ3X2xP0KkQkTEDvWdEUBmGv1SwaDaMaHGcZfCE3DvUYGq2WoaIOkt/EY9bxAINgUcRnHZAnN+I4OpTTm3hUPQ5PgPM55gB4NQNiH+AzmcVL1zwwtgOJd2vcCPFyLzdyGNtO8jynAuXpDOpK3EDqRGtb7i4yfJc3xSeFJD+4Sd7hwLG7SkNjUhGTfKVV1FvyPo8P+ozZFGnLIfJzJ6CXACTv5FMVZCpfFMWV8YDC1MxLSoGSbNo6pu7TYfkx3XL5XjOJ9VvPkAAK+9IqQFVyQSoPwAnPx2TP6FXkKpoca+ccCJBqxuktabZcF6RX6xRqOxVMVxShKkQVK6EWB1izoVKnWvG1qwmohvVQaRbV4vR1Xgvi9GQcXH3TsqxySxt0cpz5tlzig0PgPmaw6badMWN0jHaWQO+zer5AJPLFqOr2t+dta4/uDfr9QQcy1FKgq8Un9AtnJhXDP6xwMF0S2BcPedDkbkpEipsqnLytnTRcf3JPOzddlcMN+7LMgwa2tSvGCxCpr0LiFe0xSFt839qggJ6g890gA8bC7cFbvbxu5DerX+nR2TQa+9jivhxBou705GbhamB0AfVJkGJBQ9Ee0m31rcc5UlKvGvr+/6WNzRTrLZpJwTfRis/ymHnel7pYmp8jNl3WeOs5qcjIXdwpzxU58EToQYUcUP9YQ1+Nh3rXb3z/qzipgqyc7KVvstZ2pGyUZnWmBF9O8rWAmPVA0IzxJBMv5GEXn+fbc5yw2iYK/CSd0XmFj71u+YCHUr5T3BCZFJrgs5Xo1m
  controls :
   -
     name : LIB_Bonjour
@@ -23,7 +23,7 @@ window :
   -
     name : LIB_Confirmation
     identifier : 0x238dddd5013dbf56
-    internal_properties : BgAAAAYAAABTmUz5X+Y7bzcg3mxaePHi8QtsgR0LhtaAFUZWggl8vCEf10tPsyJPvOGy7FYi16nIygqULt3UiZSfZb8qd+G5yLmeNPq/qI68ssRB55gwvMD/rBRyZjVS1Yd6RnXFpQWFYXtB5EdrcypX9n+iBpcd7r2g63V7mcFrTAtlQBGhmtoaetEEq7uMTvL+oxQ+FwSxcrROqzVoBX7aiYaLELrFiUnvRlCKartYOZ2m0QZYguV27cMMrj829kDXPxts9yzFeD84T3DTonzX2O6ItukyDUpMZFGSorZeceoJJVTZn1UoQBp/oxhDO37VFeghRkmSCWYGaHKfec+pV7pfonLYYpfXoviBXTkfmMbjCwiir9KX1c9ZIbiToTeaSJYm3XfQkxDITv6A4V2pjaXiM13TCkR8IEdKyYEeKYOeOGJ6cCwF5Y0uW7idrYB9w0sRH9l0Ly9CpC8=
+    internal_properties : BgAAAAYAAABU2/vG2g09uXPFg0c+tLxeTcMRckIkFLTkPCldEKZzdE894HqA0hyhhubvvba80Xye7V0yiaCIX0OlhhQce0VJrYXfA74D4I7yzGPIWfIPVrCKgYoQY2IFxAXOMZ0rvYRjWQbZyUnkCzEGYPPUWKMoeuN/AxvYKYyBZOpwgtCb8yryt+v+Yl4TWSQoOu0g7eR1JyzL6JzNiis/M4HUw4Yfsq0bWP21/EHsGjfA/UWMn25p9sDuUZiyu8LonFxg2Gq/M4lnvPFbnAa8rfLT1gQee48qQbRPDhj64CnLyHgi14FpKhH4kFjh5z3kA/UXZ6kk5BN4moiOgh5MRL4FF1sdPrAbNTd/XfM2+64zwtP7nRm8fbUw68fe9RhWE8PW5VgKOUUF4dWGdDb5sJFQI1WtJLqeakLHlTboDkNccLQXu1BxinMMo6kNpn57Dpb1ND5Z0UB/EV5yxGx4N6ZXLiqJ/TGuqmdSuPTSnIgnjmR1QLz2JURvSAkO9A==
     type : 3
     code_elements :
      type_code : 2
@@ -44,6 +44,26 @@ window :
          
         type : 14
       -
+        code : |1-
+         
+         Si bVote_Nul = Vrai ALORS
+         	
+         	// Instanciation des paramètres de la requête pour insérer le vote d'un code carte selon l'heure et la date
+         	REQ_Vote_Heure.ParamDateVote = Lib_Date
+         	REQ_Vote_Heure.ParamHeureVote = LIB_Heure
+         	REQ_Vote_Heure.ParamNumCarte = nNuméroCodeElecteur
+         	REQ_Vote_Heure.ParamCodeElection = nCodeElection
+         	
+         	// Incrémentation du vote blanc selon l'élection
+         	HExécuteRequête(REQ_Vote_Heure)
+         	REQ_Vote_Blanc.ParamCodeElection = nCodeElection
+         	HExécuteRequête(REQ_Vote_Blanc)
+         	
+         	Ouvre(FEN_Validation_Vote)
+         	
+         FIN
+        type : 18
+      -
         type : 161
         enabled : false
   -
@@ -63,6 +83,8 @@ window :
         type : 14
       -
         internal_properties : BgAAAAYAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        code : |1-
+         
         type : 18
       -
         type : 161
@@ -100,6 +122,14 @@ window :
          moimeme =heuresys()
          
         type : 14
+  -
+    name : IMG_SansNom3
+    identifier : 0x2422f0ee099fe574
+    internal_properties : BgAAAAYAAAAnKEs5up2Pq+tTx0vfdjTTMM7WZfd8rKn79E0HxEgKNIstjIx0uBaYwp7slo4UMzJzsHAc3uFpgbhZf/8Eaj6aOXPcBsfG3X4gy82UoFXnIiajd1NWhDLJCNVyWRTuOEL+bksux6WQX9ah9ojBgZy61GPfRoH2zfDSrnqE9vuEx+GtCnBaXrlC7cPkvrjCTSyRhSaCsZk7mVnYvx75FcB/iQdA1BpEvIWWX71ZgNEwLA5NRRiaUNAyCCq6mUnFuGfOEuiLHuhM+wgycWeEaD/NSrNyvIgC2gRFa0fzlIYW10CxObLqNNZ2I3LS/FbjqvKvE2Qwrt+dXzaQNnAe6wlZRz7zsvdq1WEk2tfv2JO1kIVYK1nK3yBN/2XKST2sQNdXfAZIxb88MwPggfQq0gaE4JlaAGsSMuvMC+0tT+ydQ6k6ukAaLTSuLYPpFJK4jAMJJEcNFa6OxbFNhLd6Dn3qIGxJxqRi6vvlauf489LcytBVLDX7Nn+OXlh6QqlUHfjHKQxJUBgwMdQaCJ5PvbL4E92QLxKl787iy8ufxEIJr/ub4roNeLaX5Z8ScxSUx8NIGQ5XZ8YttBQSzzsAfvmkIVPSDeQ4jvZ3SRHUd/EiJsHlsCUeTPEVL/bTzRZuI4U585RkZBqOL1u9rej95K50d0JlBwxLVzMQtAvb8xraMwJ35KHMdVMQdgrySVQK6mac00Epg7e+Sq5BjXHqnCdgtKbE1J9rqPU5VkHbmBrf4QAYStd79k1ggBwabVii6FOci/B4AuptbttkIdul1bFTwLyMXLDOyp/qhClLbi8L7TN5zLNyc4P+5ocIhYDf5XNMJn7uaH5OjNhaa2RklZdRyJMA9aA5DHV6UKtb4uK6CXHHSAxDCN1LSNM31mhGgTkzaV7FpLGKWowcHZaGpwVWdegNCm9QNkFRF0VAfatcMiM=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
@@ -117,7 +147,32 @@ window :
      code : |1+
       PROCEDURE MaFenêtre()
    -
-     code : |1-
+     code : |1+
+      
+      REQ_NomCandidat.ParamCodeSalarie = nNuméroCodeElecteur
+      HExécuteRequête(REQ_NomCandidat)
+      Si HLitPremier(REQ_NomCandidat) ALORS
+      	LIB_Bonjour = " " +  LIB_Bonjour + " " +  REQ_NomCandidat.NomSalarie +" " + REQ_NomCandidat.PrenomSalarie
+      	
+      FIN
+      
+      
+      SI bVote_Nul = Vrai ALORS
+      	LIB_Confirmation = "Confirmer de soumettre un vote blanc."
+      	
+      SINON
+      	REQ_NomCandidat.ParamCodeSalarie = nNuméroCodeElecteur
+      	HExécuteRequête(REQ_NomCandidat)
+      	
+      	SI HLitPremier(REQ_NomCandidat) ALORS
+      		
+      		//LIB_Bonjour = " " +  LIB_Bonjour + " " +  REQ_NomCandidat.NomSalarie +" " + REQ_NomCandidat.PrenomSalarie
+      		LIB_Confirmation = LIB_Confirmation + sNomPrenomCandidat
+      		
+      	FIN
+      FIN
+      
+      
       
      type : 34
    -

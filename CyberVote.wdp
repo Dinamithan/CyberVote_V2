@@ -22,7 +22,7 @@ project :
     64bits : true
     new_features_help :
      name : ""
-     internal_properties : BgAAAAYAAABcuMRsUYyPOKp/z7h1ZgOClrhX0UIAMbJ0Kr2siuUUBscCQeHcABcVcEw14PBhRP+gakQ32ZaflZu1
+     internal_properties : BgAAAAYAAAANhRoYoyzNIel5gt1DyE0IwTkuFJKuLio9A2vR7uzr1evCp74ghWD72M3uQBVnU1FlYYee3oxq/AD+Cg==
  elements :
   identifier : 0x436a7ae2008e7b6f
   elements :
@@ -69,16 +69,52 @@ project :
      physical_name : .\REQ_Table_Candidat.WDR
      type : 5
    -
-     name : REQ_Authentif_DatedeNaissance
-     identifier : 0x441d62ad00baa04c
-     internal_properties : BgAAAAYAAAD8WtTA/6QMHyhlNimboEX7qN/3v/TRPBBOj3nhXiZuolLsYLD1wxooda8plx/RqR/paQ==
-     physical_name : .\REQ_Authentif_DatedeNaissance.WDR
-     type : 5
-   -
      name : REQ_Authentif_CodeService
      identifier : 0x441d6f4000adbd6a
      internal_properties : BgAAAAYAAAAPCaXhMo9fR3Bqx40b6Ldk3PHOu+3hmKGWNHutC/ZLO6qgysP4y3jjw/L9uuUFshkK
      physical_name : .\REQ_Authentif_CodeService.WDR
+     type : 5
+   -
+     name : REQ_Authentif_CodeSecret
+     identifier : 0x441d74da00ada023
+     internal_properties : BgAAAAYAAABr5UHNDruzedy2qyz4PkGSGq/iJ+fLJ1mvR9EPhRal0eC+aGXLSV5R8dbR7tEpln3u
+     physical_name : .\REQ_Authentif_CodeSecret.WDR
+     type : 5
+   -
+     name : MSERVICE
+     identifier : 0x4422f77e037d864e
+     internal_properties : BgAAAAYAAABwzqj0M2hAW2S2YUy8oe3XQufxoRh20BhyIkPHeY+Fq1H9USVH/OI5Qfvl01ONdWtV3Q==
+     physical_name : .\MSERVICE.wdc
+     type : 4
+   -
+     name : REQ_Vote_Blanc
+     identifier : 0x4422f51003700a44
+     internal_properties : BgAAAAYAAAA3Aa35+gfc0uDAkE/Q9hc111dCVvcm3EGC6HPAfqYtuaVCnBNfWohtHQOFMh39uiEy
+     physical_name : .\REQ_Vote_Blanc.WDR
+     type : 5
+   -
+     name : REQ_Type_Election
+     identifier : 0x4422e63b01f219de
+     internal_properties : BgAAAAYAAABDP7vv3ImhugWXTR6pTUWEp/pmfscZZVpOj6p8tv6cpAD8IHmKt9QWYtzGMvLuin5Gzg==
+     physical_name : .\REQ_Type_Election.WDR
+     type : 5
+   -
+     name : REQ_Vote_Heure
+     identifier : 0x4422e45601ecb124
+     internal_properties : BgAAAAYAAAB00lxYZ9xUV2CCalQIBrjFOg35qZJEyNxKpI5W+oqKphL4aEmSb/c1Tffh36dZIZdh4Q==
+     physical_name : .\REQ_Vote_Heure.WDR
+     type : 5
+   -
+     name : REQ_NomCandidat
+     identifier : 0x4422d0af0107ed1a
+     internal_properties : BgAAAAYAAADmbM7S0Y6mSRak5P/K+3y7NknVxX6AFTp2xc7C3oYWwn6cYouLftHTL+nTLfXrlwnzcw==
+     physical_name : .\REQ_NomCandidat.WDR
+     type : 5
+   -
+     name : REQ_Authentif_DatedeNaissance
+     identifier : 0x4422cecf00f29bb0
+     internal_properties : BgAAAAYAAACno4+TEE3lhlHjEV5kSXW8GbrUhM85Qfmy8jlVKXuTlbtBre7x1ziS7iiSbjaqVkqysg==
+     physical_name : .\REQ_Authentif_DatedeNaissance.WDR
      type : 5
   other_elements : []
   analysis : .\CyberVote.ana\CyberVote.wda
@@ -94,12 +130,13 @@ project :
   type_code : 0
   p_codes :
    -
-     code : |1-
+     code : |1+
       nNuméroCandidat est un entier
       nNuméroCodeElecteur est un entier
       sNomPrenomCandidat est une chaine
       nCodeSecret est un entier
       bVote_Nul est un booléen 
+      nCodeElection est un entier 
      type : 196608
    -
      type : 196621
@@ -135,6 +172,54 @@ rad :
  internal_properties : BgAAAAYAAABhIL0UXeZmxDJxY3Xy0Q==
 project_explorer :
  explorer_type : project
+ children :
+  -
+    explorer_type : queries
+    children :
+     -
+       name : Authentification
+       explorer_type : custom_folder
+       children :
+        -
+          name : REQ_Authentif_CodeSecret
+          explorer_type : element
+          type : 5
+        -
+          name : REQ_Authentif_CodeService
+          explorer_type : element
+          type : 5
+        -
+          name : REQ_Authentif_DatedeNaissance
+          explorer_type : element
+          type : 5
+     -
+       name : Vérification du vote
+       explorer_type : custom_folder
+       children :
+        -
+          name : REQ_Vote_Heure
+          explorer_type : element
+          type : 5
+     -
+       name : Identification
+       explorer_type : custom_folder
+       children :
+        -
+          name : REQ_Type_Election
+          explorer_type : element
+          type : 5
+     -
+       name : Vote blanc
+       explorer_type : custom_folder
+       children :
+        -
+          name : REQ_Vote_Blanc
+          explorer_type : element
+          type : 5
+        -
+          name : MSERVICE
+          explorer_type : element
+          type : 4
 resources :
  string_res :
   identifier : 0x0
