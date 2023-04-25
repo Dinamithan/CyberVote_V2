@@ -22,7 +22,7 @@ project :
     64bits : true
     new_features_help :
      name : ""
-     internal_properties : BgAAAAYAAAANhRoYoyzNIel5gt1DyE0IwTkuFJKuLio9A2vR7uzr1evCp74ghWD72M3uQBVnU1FlYYee3oxq/AD+Cg==
+     internal_properties : BgAAAAYAAADjvwBKcRLTN+t3+CKJPVWEZUmmzO5qduJxyxPJ+pYJpyGY6SACbyZFsutYuo/qlidbX4WQ6LqcrvbkYA==
  elements :
   identifier : 0x436a7ae2008e7b6f
   elements :
@@ -35,7 +35,7 @@ project :
    -
      name : FEN_Candidat
      identifier : 0x43739a7d0a48fe10
-     internal_properties : BgAAAAYAAABk4kxoVwwkx5OFnpXfmMdXlPXjy3Flxm+DPzFpCAsB98kZG1Pw2lMzwGdRr3dpEYdx8Q==
+     internal_properties : BgAAAAYAAACd+fWpFkPr9EI0uTC6w2B0sYDowOX8/jeuE0NNjpb87Nw0PrCVffBOLxaAeDioUECIiA==
      physical_name : .\FEN_Candidat.wdw
      type : 2
    -
@@ -115,6 +115,30 @@ project :
      identifier : 0x4422cecf00f29bb0
      internal_properties : BgAAAAYAAACno4+TEE3lhlHjEV5kSXW8GbrUhM85Qfmy8jlVKXuTlbtBre7x1ziS7iiSbjaqVkqysg==
      physical_name : .\REQ_Authentif_DatedeNaissance.WDR
+     type : 5
+   -
+     name : REQ_Vote_Blanc_Ajout
+     identifier : 0x4447c0ce00c4afeb
+     internal_properties : BgAAAAYAAABNz3sX4N3V377k/hoqpFs2YQTwZ6wifpmTYyYbWi/CAaO/2ZoOBpyvQ3hzDDfTbFfI
+     physical_name : .\REQ_Vote_Blanc_Ajout.WDR
+     type : 5
+   -
+     name : REQ_Ajout_Vote
+     identifier : 0x4447d5a5015f1ae0
+     internal_properties : BgAAAAYAAABKwLJWVRIaxYI1l++gOZtXCHVXvwoJUjWycn9WE2EzzTunNeV1VCG861VPqWlnE4VP1w==
+     physical_name : .\REQ_Ajout_Vote.WDR
+     type : 5
+   -
+     name : REQ_Recapitulatif_Vote
+     identifier : 0x4447cfa201059e9b
+     internal_properties : BgAAAAYAAAAVZ8NPiDXD3sas78GQbrfa2Sqo2LVN6yF6UCicqgIFVupuQI/bGG9c0kpbZE+rFP8Q
+     physical_name : .\REQ_Recapitulatif_Vote.WDR
+     type : 5
+   -
+     name : REQ_Verification_Vote
+     identifier : 0x4447c65500b9481e
+     internal_properties : BgAAAAYAAAA7F2OnBEHp8v1k9zYE8BBosyYCSvMCHBuKNBmtijpYULwAfFxuijurmoR+ejq2QrYeJg==
+     physical_name : .\REQ_Verification_Vote.WDR
      type : 5
   other_elements : []
   analysis : .\CyberVote.ana\CyberVote.wda
@@ -200,6 +224,10 @@ project_explorer :
           name : REQ_Vote_Heure
           explorer_type : element
           type : 5
+        -
+          name : REQ_Verification_Vote
+          explorer_type : element
+          type : 5
      -
        name : Identification
        explorer_type : custom_folder
@@ -220,6 +248,13 @@ project_explorer :
           name : MSERVICE
           explorer_type : element
           type : 4
+        -
+          name : REQ_Vote_Blanc_Ajout
+          explorer_type : element
+          type : 5
+     -
+       name : Vote
+       explorer_type : custom_folder
 resources :
  string_res :
   identifier : 0x0

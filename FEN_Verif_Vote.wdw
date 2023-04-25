@@ -46,7 +46,15 @@ window :
       -
         code : |1-
          
-         Si bVote_Nul = Vrai ALORS
+         	// Vérification du vote, si TRUE, alors la personne a déjà voté et donc son vote n'est pas prit en compte
+         	REQ_Verification_Vote.ParamCodeElection = nCodeElection
+         	REQ_Verification_Vote.ParamNumCarte = nNuméroCodeElecteur
+         	HExécuteRequête(REQ_Verification_Vote)
+         SI  HLitPremier(REQ_Verification_Vote)= Faux ALORS
+         	
+         
+         
+         	Si bVote_Nul = Vrai ALORS
          	
          	// Instanciation des paramètres de la requête pour insérer le vote d'un code carte selon l'heure et la date
          	REQ_Vote_Heure.ParamDateVote = Lib_Date
@@ -54,12 +62,35 @@ window :
          	REQ_Vote_Heure.ParamNumCarte = nNuméroCodeElecteur
          	REQ_Vote_Heure.ParamCodeElection = nCodeElection
          	
+         	
+         	
          	// Incrémentation du vote blanc selon l'élection
          	HExécuteRequête(REQ_Vote_Heure)
-         	REQ_Vote_Blanc.ParamCodeElection = nCodeElection
-         	HExécuteRequête(REQ_Vote_Blanc)
+         	REQ_Vote_Blanc_Ajout.ParamCodeElection = nCodeElection
+         	HExécuteRequête(REQ_Vote_Blanc_Ajout)
+         		
+         	
          	
          	Ouvre(FEN_Validation_Vote)
+         	SINON // La personne a sélectionné un candidat
+         		REQ_Ajout_Vote.ParamCodeElection = nCodeElection
+         		REQ_Ajout_Vote.ParamCodeCandidat = nNuméroCandidat
+         		HExécuteRequête(REQ_Ajout_Vote)
+         		
+         		REQ_Vote_Heure.ParamDateVote		= LIB_Date
+         		REQ_Vote_Heure.ParamHeureVote		= LIB_Heure
+         		REQ_Vote_Heure.ParamNumCarte		= nNuméroCodeElecteur
+         		REQ_Vote_Heure.ParamCodeElection	= nCodeElection
+         		HExécuteRequête(REQ_Vote_Heure)
+         		
+         		Ouvre(FEN_Validation_Vote)
+         
+         	FIN
+         SINON
+         	Avertissement("Vous avez déjà voté.")
+         	
+         	Ouvre(FEN_Validation_Vote)
+         	
          	
          FIN
         type : 18

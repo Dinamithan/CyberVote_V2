@@ -101,7 +101,7 @@ window :
   -
     name : LIB_Election_Debut
     identifier : 0x2422e676076000d3
-    internal_properties : BgAAAAYAAABZXauLT5/UkcPKlIC7pAGKfL39NzFKOStnLr1rtdNNY4/IXSTODQu+FLOhGzmK2BXytWa/kqeKR2YhI7NmHCyxoGsm6+wtyNvl/so2cV2WNpYgzeIngpVHYsJpesTw9kp9athr/g31fvNYqXmbYWS+6tDXCD2xE23u2sBKX/ZnRlWZT4lzL2IsWXFa8ROL/awrC0XK2XeHgiu03fwfT0U671eiZ7FfMmtQjoFJSpp+iG2hf2GAjJFqFGC5y6aqxo4NpYfJqn518IYOrUMNQsnMKyedqgFD3B9mFKfKXspWP4Jsf/8JfyniN30oBdiA9UwDSmwWdDJzYHG9GDp/XvLOp7+SBrNNSbqpk88EWlsGxiBT/8RAifFa7TVCsc1jlv1Jk5PprvXgGNpMzHsd7gOpZkKF/G2dJO0KoxownSZBc4CkdG2aZFkTVefaTzIJ4TTV
+    internal_properties : BgAAAAYAAACJLdtbX4+koZPahJCrlHGabA0tBwE6yTt3Pq17ZYN9M79YzbQevdtOpENRa2k6iKWiRdZPIhcav5bRA7MmXGzxoHtW21zdWLulPrqmgY3m5gaAbaLHAtXX8pKpmmRQ1ko9OmibLv1F3tPYOUnLEZRuepBXiB3x051eCsCqvxaH5rWp/5kDP1IsmdEqQcO7LfybS8XKOfeHUvukPfwfT8XaLwfSdyEPQut4RsmxIjI2MKWZ14loNImCXBihM56iPjbl3b8RUoZtyK4mtWtlGsF0I99VcgmL9NcubE9yFoIOJzrk1yeRJwG633XQTRD4TfQboqRePLpLuPl1AOI3Fmq2n5fqTnu1oXIRaxds8jN+brgrV2zo8SnydcXSIX3TJg15Q8M5XgXwKCocHCvNXpM5lnK1zJ2tNP0asyogjVaRw3CUZH2KdGkjpbcqPyI5MYSF
     type : 3
     code_elements :
      type_code : 2
@@ -109,7 +109,7 @@ window :
   -
     name : LIB_Election_Fin
     identifier : 0x2422e69b07768ff4
-    internal_properties : BgAAAAYAAAClpXC6CWrQhJNGwzpVn9gWwXh39oJHs8QvLaJVreyWYl0f/ei1L75ScRuiEpdgc2RS0INtyp5EMiNAykDzka785nRl9W5vneytRmgYeLQMFVY2gY8gHvStfD6Bxqi+P3lwYdzwYgTPIpOuVgh5MeDJTKEkNDo5xy0W1lp2pI75OJMaub1HTi00XhyU9SiANFj3Swegv+cESDDH65h+uhDGMbeEMeP/P4lShDyT31hbFds52Fv/QQ72JpKiD00oiS2RZ5p5TwWoUB5qOA0AXLZVHecm0jTMrYFCNsrs/Zg5wk78AD0i8nxQ7Y1xJ0/MzmE5CM9yv6OgvF/Np6ioWLsjp6eh2EjMVDyXwWZCbZP3P1RxahpLruO5C/yjcR2x4DRKQZ1KGcS7BDTGUEQVkqwFDMJsBP8G9RyfaumCKh9l0/HpkYu3kalV7tae23rmqoJQlA==
+    internal_properties : BgAAAAYAAAD7W1bYV8A+6oV8jUADLaZI76Yt3DjtgfqR40xzuxKETFOVa+a7HUzAE/kMeK1OEYb4diFD0IQaGPUmNEHp/z5sNm6dDdgxe0JZRDwoOhawSVokMQ8mbM5/0MTNAgZ8CzUgGxwwKGqZ4F+Mqgjz45AZAIfoSKDHWauKXFbmlvAhEJdAKR3p4KvS2mLMeXbmULT/Rb+A2flqTtS9t2S0GMxKYdmUIYlF6edekS/g8uVKxiYyI3DabsEbhR9VpFgtjPKIbNEylr6PjbnrR/4XFf2OFDytW7NNjP4pS/W5aO3kT/2Bv/5he1NFvLokdJqRjaL00WJvsqjLSYbCio2rRUrEhpxIoXfd00nehuHHUIAK3DsO6Zval92zMdKJSzeX+tLo5zssO5qVXlKkvtbnoJ57grhaFukcDzblIB9UxHWP+ZcXR0UJR2OP1MyEPeSMDGCOSg==
     type : 3
     code_elements :
      type_code : 2
@@ -125,7 +125,7 @@ window :
   -
     name : LIB_Au
     identifier : 0x2422ef41087d572b
-    internal_properties : BgAAAAYAAAC3dl5H847mmpzjh9xSbYB4XxXK+coP0QrqLYv6T/Gjs1/UKoxvwo6ERDeerECUEJJ+JSbalpgxhp2iMfRd6wVu4wiVWdeJMjbvYebvA9HjwV8xpLo/BNTCAR9tlKchmHbBQwaUBlHZogergSDj7XbzGcf059Blk4MNzE+lx8xljtVidW+EVCrsk/09/mn6ezHDGYoJnbqEY6ZjSKK5i1yUligej4riuKsSqvOapPfPrMqt8ZWj0JNq+X+Ql/k3/14qjZkHv/57gJNNLFeEI/JAD5a2T0iV0AME9usqkBkJPHDS3TQg+DhwsYWwEkWg+kQyOTNwLXOH2h0f4Q0FU9AAKubm4ZvlFz2jPYwIc7gIgEvBwwYKj27yP9/fhkYwfbaOXduZOKAe1rnaf5nJzNp95yjLVka5U1voRg2wJA==
+    internal_properties : BgAAAAYAAABH5u7XQx4WakyTN2wC/fCIbwXaSZqfQZqanXtKP8FTg+9Eetz/Ev5UNOfO/PAkgCLOlXZq5ighlo2SIcRNO7U+M3jl6SdZCo5PgcaPQzEjIT/xhJo/xLQiYb+NtOfBmBbhg2b0xhE5gqdL4YDjjfYTOUcUB5DlM6MtbC/FBywlbvUilY8E1AqMc51d3inau5HjGerpHbpkwwbDKMI5q2ykRvhOf7oSqDvCGoPKdCcffPp9oQVTQAN66W8gRwknj+4anYn37+4rEAN9/IfUE4LQf6amv/gFgBN05vsa4ElZjCCiDSRQ6OgAYfVAgtVQShQiyaNgHVtXKq1vsX21gyDQGtbW8Yv1J80zjVx44yiYEPtxc9Y6Xz7Czy+v9vZgTYb+zUspqDCuZglqj4n5vOoNF9h7JnZJ4+t41p0gVA==
     type : 3
     code_elements :
      type_code : 2
@@ -167,12 +167,11 @@ window :
       REQ_Type_Election.ParamCodeElection = LIB_0
       HExécuteRequête(REQ_Type_Election)
       Si HLitPremier(REQ_Type_Election) ALORS
-      	LIB_Election_Debut = LIB_Election_Debut + REQ_Type_Election.DateDebutElection
-      	LIB_Election_Fin = LIB_Election_Fin + REQ_Type_Election.DateFinElection
+      	LIB_Election_Debut = LIB_Election_Debut + DateVersChaîne(REQ_Type_Election.DateDebutElection,"JJ/MM/AAAA")
+      	LIB_Election_Fin = LIB_Election_Fin + DateVersChaîne(REQ_Type_Election.DateFinElection,"JJ/MM/AAAA")
       	LIB_Election_lib =  LIB_Election_lib + REQ_Type_Election.LibElection
       FIN
-      DateVersChaîne(LIB_Election_Debut)
-      DateVersChaîne(LIB_Election_Fin)
+      
       
       nCodeElection = LIB_0
      type : 34
